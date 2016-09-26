@@ -10,7 +10,7 @@ from sklearn.datasets import load_digits
 from sklearn.cross_validation import train_test_split
 
 """
-AdaBoostの実装と「digits」での評価
+Implementation and evaluation of AdaBoost
 """
 
 def adaboost(sample, weakLearner, rounds):
